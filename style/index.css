@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+
 }
 
 .header {
@@ -26,6 +27,7 @@ body {
 }
 
 .Try {
+    cursor: pointer;
     width: 150px;
     margin-top: 30px;
     margin-right: 50px;
@@ -38,6 +40,11 @@ body {
     padding-right: 20px;
     border-radius: 30px;
     font-weight: 600;
+}
+
+.Try:hover {
+    color: rgb(175, 175, 175);
+
 }
 
 .Huddle {
@@ -66,17 +73,23 @@ body {
 }
 
 .Get {
+    cursor: pointer;
     width: 200px;
     margin-left: 50px;
     background-color: hsl(322, 100%, 66%);
     border: none;
+    outline: none;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 30px;
-    color: white;
+    color: whitesmoke;
     font-weight: 600;
+}
+
+.Get:hover {
+    background-color: hsl(322, 85%, 79%);
 }
 
 .form {
@@ -89,6 +102,7 @@ body {
 
 .main {
     box-sizing: border-box;
+    position: relative;
     margin-right: 60px;
     margin-left: 60px;
     margin-top: 100px;
@@ -111,6 +125,10 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 90px;
+}
+
+.Grow {
+    line-height: 1px;
 }
 
 .Generate {
@@ -141,6 +159,10 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-right: 40px;
+}
+
+.Flowing {
+    line-height: 1px;
 }
 
 .You {
@@ -174,6 +196,10 @@ body {
     margin-left: 90px;
 }
 
+.Your {
+    line-height: 1px;
+}
+
 .It {
     font-weight: lighter;
     color: hsl(208, 11%, 55%);
@@ -186,31 +212,38 @@ body {
 }
 
 .Gett {
+    cursor: pointer;
     width: 200px;
     background-color: hsl(322, 100%, 66%);
     border: none;
+    outline: none;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 30px;
-    color: white;
+    color: whitesmoke;
     font-weight: 600;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+.Gett:hover {
+    background-color: hsl(322, 85%, 79%);
+}
+
 .box {
-    box-sizing: border-box;
+    width: 400px;
+    padding: 50px 20px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     background-color: white;
-    width: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-left: 500px;
     border-radius: 10px;
+    margin-bottom: 0px;
     box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
     -webkit-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
     -moz-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
@@ -218,4 +251,141 @@ body {
 
 .footer {
     background-color: hsl(192, 100%, 9%);
+    font-size: small;
 }
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+
+
+.Lorem {
+    margin-left: 30px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.Loremm {
+    margin-left: 46px;
+    color: whitesmoke;
+    font-weight: lighter;
+
+}
+
+.number {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.example {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.anchor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 190px;
+    margin-right: 100px;
+    font-weight: lighter;
+}
+
+.About {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.Career {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+
+    padding-top: 220px;
+    margin-right: 150px;
+}
+
+.facebook {
+    margin-right: 2px;
+    cursor: pointer;
+    padding: 3px;
+    fill: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.facebook:hover {
+    fill: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.twitter {
+    margin-right: 2px;
+    cursor: pointer;
+    padding: 3px;
+    fill: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.twitter:hover {
+    fill: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.instagram {
+    cursor: pointer;
+    padding: 3px;
+    fill: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.instagram:hover {
+    fill: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.com {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-right: 70px;
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 576px) {}
