@@ -41,6 +41,7 @@ body {
     padding-right: 20px;
     border-radius: 30px;
     font-weight: 600;
+    transition: .5s;
 }
 
 .Try:hover {
@@ -87,6 +88,7 @@ body {
     border-radius: 30px;
     color: whitesmoke;
     font-weight: 600;
+    transition: .5s;
 }
 
 .Get:hover {
@@ -228,6 +230,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    transition: .5s;
 }
 
 .Gett:hover {
@@ -343,6 +346,7 @@ a:hover {
     fill: whitesmoke;
     border: 1px solid whitesmoke;
     border-radius: 10px;
+    transition: .5s;
 }
 
 .facebook:hover {
@@ -357,6 +361,7 @@ a:hover {
     fill: whitesmoke;
     border: 1px solid whitesmoke;
     border-radius: 10px;
+    transition: .5s;
 }
 
 .twitter:hover {
@@ -370,6 +375,7 @@ a:hover {
     fill: white;
     border: 1px solid white;
     border-radius: 10px;
+    transition: .5s;
 }
 
 .instagram:hover {
