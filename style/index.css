@@ -242,7 +242,7 @@ body {
 .box {
     width: 400px;
     padding: 50px 20px;
-    margin-left: 300px;
+    margin-left: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -510,6 +510,9 @@ a:hover {
     .st {
         margin-top: 50px;
         margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .stt {
@@ -543,6 +546,9 @@ a:hover {
     .nd {
         margin-top: 50px;
         margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .ndd {
@@ -576,6 +582,9 @@ a:hover {
     .rd {
         margin-top: 50px;
         margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .rdd {
@@ -586,6 +595,7 @@ a:hover {
     .box {
         width: 350px;
         margin-left: 12px;
+        padding-right: 10px;
     }
 
     .blue {
