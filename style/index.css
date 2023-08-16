@@ -242,7 +242,7 @@ body {
 .box {
     width: 400px;
     padding: 50px 20px;
-    margin-left: 400px;
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -478,7 +478,10 @@ a:hover {
         height: 200px;
     }
 
-    .main {}
+    .main {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
 
     .first {
         display: flex;
@@ -499,6 +502,9 @@ a:hover {
     .Generate {
         font-size: small;
         text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .st {
@@ -529,6 +535,9 @@ a:hover {
     .You {
         font-size: small;
         text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .nd {
@@ -559,6 +568,9 @@ a:hover {
     .It {
         font-size: small;
         text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .rd {
@@ -602,13 +614,24 @@ a:hover {
         display: flex;
         flex-direction: column;
         margin-right: 200px;
-        margin-left: 0px;
-
+        padding-top: 20px;
     }
 
     .About {
-        padding-top: 0px;
+        margin-bottom: 0px;
+    }
 
+    .Career {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .socials {
@@ -617,6 +640,7 @@ a:hover {
         justify-content: center;
         margin-right: 0px;
         padding-top: 0px;
+        margin-bottom: 10px;
     }
 
     .facebook {
