@@ -4,10 +4,11 @@
 }
 
 body {
-    overflow-y: scroll;
+
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 18px;
 
 }
 
@@ -104,6 +105,7 @@ body {
 
 
 .main {
+
     box-sizing: border-box;
     position: relative;
     margin-right: 60px;
@@ -284,6 +286,16 @@ body {
 
 }
 
+.temp {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.omnis {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
 .number {
     margin-left: 20px;
     color: whitesmoke;
@@ -395,4 +407,248 @@ a:hover {
     font-size: smaller;
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .header {
+        background-image: url(../image/bg-hero-mobile.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: static;
+    }
+
+    .logo {
+        width: 100px;
+        height: 15px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .Try {
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Build {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .h {
+        font-size: x-large;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 0px;
+        line-height: 40px;
+    }
+
+    .connections {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .Get {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .form {
+        margin-left: 50px;
+        padding-top: 30px;
+
+    }
+
+    .mockups {
+        width: 300px;
+        height: 200px;
+    }
+
+    .main {}
+
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+    }
+
+    .p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Grow {
+        text-align: center;
+    }
+
+    .Generate {
+        font-size: small;
+        text-align: center;
+    }
+
+    .st {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .stt {
+        width: 200px;
+        height: 150px;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .pp {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Flowing {
+        text-align: center;
+    }
+
+    .You {
+        font-size: small;
+        text-align: center;
+    }
+
+    .nd {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .ndd {
+        width: 200px;
+        height: 150px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .ppp {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Your {
+        text-align: center;
+    }
+
+    .It {
+        font-size: small;
+        text-align: center;
+    }
+
+    .rd {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .rdd {
+        width: 200px;
+        height: 150px;
+    }
+
+    .box {
+        width: 350px;
+        margin-left: 12px;
+    }
+
+    .blue {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .icons {
+        margin-left: 30px;
+    }
+
+    .temp {
+        margin-left: 46px;
+        color: whitesmoke;
+        font-weight: lighter;
+    }
+
+    .omnis {
+        margin-left: 46px;
+        color: whitesmoke;
+        font-weight: lighter;
+    }
+
+    .anchor {
+        display: flex;
+        flex-direction: column;
+        margin-right: 200px;
+        margin-left: 0px;
+
+    }
+
+    .About {
+        padding-top: 0px;
+
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 0px;
+        padding-top: 0px;
+    }
+
+    .facebook {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .twitter {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .instagram {
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .com {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin-right: 0px;
+    }
+}
